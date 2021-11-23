@@ -1,0 +1,227 @@
+.triangleBefore {
+    visibility: visible;
+    opacity: 1;
+}
+.triangleAfter {
+    visibility: hidden;
+    opacity: 0;
+}
+.weaponBefore {
+    width: 155px;
+    height: 155px; 
+    position: absolute; 
+    z-Index: 1;
+    border-radius: 100px;
+    background-color: white; 
+    text-align: center;
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+}
+.weaponAfter {
+    width: 200px;
+    height: 200px; 
+    position: absolute; 
+    z-Index: 1;
+    border-radius: 200px;
+    background-color: white; 
+    text-align: center;
+    align-items: center; 
+    display: flex; 
+    justify-content: center;
+}
+.paperBefore {
+	width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 445px;
+    top: 305px;
+    border-radius: 100px; 
+    background-color: rgb(90, 90, 236);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+}
+.paperAfter {
+	width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 445px;
+    top: 305px;
+    border-radius: 100px; 
+    background-color: rgb(90, 90, 236);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.paperMove {
+	width: 250px;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    left: 445px;
+    top: 305px;
+    border-radius: 200px; 
+    background-color: rgb(90, 90, 236);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+    animation: paper-move 1s forwards;
+}
+@keyframes paper-move {
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-50px, 50px);
+    }
+}
+.scissorsBefore {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 730px;
+    top: 305px; 
+    border-radius: 100px; 
+    background-color: rgb(205, 240, 51);
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+}
+.scissorsAfter {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 730px;
+    top: 305px; 
+    border-radius: 100px; 
+    background-color: rgb(205, 240, 51);
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.scissorsMove {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 730px;
+    top: 305px; 
+    border-radius: 100px; 
+    background-color: rgb(205, 240, 51);
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+    animation: scissors-move 1s forwards;
+}
+@keyframes scissors-move {
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-335px, 50px);
+    }
+}
+.rockBefore {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 580px;
+    top: 530px; 
+    border-radius: 100px; 
+    background-color: rgb(173, 28, 28);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+}
+.rockAfter {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 580px;
+    top: 530px; 
+    border-radius: 100px; 
+    background-color: rgb(173, 28, 28);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.rockMove {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 580px;
+    top: 530px; 
+    border-radius: 100px; 
+    background-color: rgb(173, 28, 28);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    visibility: visible;
+    opacity: 1;
+    animation: rock-move 1s forwards;
+}
+@keyframes rock-move {
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-180px, -180px);
+    }
+}
+.shadowBefore {
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+}
+.shadowAfter {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+    left: 780px;
+    top: 410px;
+    border-radius: 100px; 
+    background-color: black;
+    visibility: visible;
+    opacity: 0.4;
+}
+.imageFontBefore {
+    width: 49px;
+}
+.imageFontAfter {
+    width: 70px;
+}
